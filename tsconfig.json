@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/tests/*": ["./__tests__/*"]
+    }
+  },
+  "include": [
+    "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "jest.config.js"
+  ],
+  "exclude": ["node_modules", "__tests__"]
+}

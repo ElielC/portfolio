@@ -1,0 +1,52 @@
+export const theme = {
+  colors: {
+    "portfolio-light": "#133c55",
+    "portfolio-mid": "#59a5d8",
+    "portfolio-dark": "#91e5f6",
+    "portfolio-low": "#0b2332",
+    "purple-light": "#57267d",
+    "purple-mid": "#603696",
+    "purple-dark": "#5d59bb",
+    "purple-low": "#21102e",
+    "green-light": "#36ab38",
+    "green-mid": "#77f879",
+    "green-dark": "#a1f7a4",
+    "green-low": "#042506",
+    "success-light": "#04d361",
+    "success-base": "#1b873f",
+    "success-low": "#051b0d",
+    "danger-light": "#f75a68",
+    "danger-base": "#cc2937",
+    "danger-low": "#2d090c",
+    "warning-light": "#fba94c",
+    "warning-base": "#eb8a1d",
+    "warning-low": "#2e1b06",
+    "new-light": "#f7e55a",
+    "new-base": "#ebd62f",
+    "new-low": "#2d2909",
+    "white.100": "#FFFFFF",
+    "black.100": "#000000",
+    "grey.100": "#e1e1e6",
+    "grey.200": "#c4c4cc",
+    "grey.400": "#7c7c8a",
+    "grey.500": "#505059",
+    "grey.600": "#323238",
+    "grey.700": "#29292e",
+    "grey.800": "#202024",
+    "grey.900": "#121214",
+    "grey.950": "#09090a"
+  },
+  fontSize: {
+    "text.sm": "0.75rem",
+    "text.md": "1.125rem",
+    "text.lg": "1.25rem",
+    "title.sm": "1.5rem",
+    "title.md": "2rem",
+    "title.lg": "2.5rem"
+  },
+  logoSize: {
+    "logo.sm": "10rem",
+    "logo.md": "20rem",
+    "logo.lg": "30rem"
+  }
+}

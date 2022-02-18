@@ -11,3 +11,10 @@ export const AppBar = styled(MaterialAppBar)`
 export const Spacer = styled.div`
   flex-grow: 1;
 `
+
+export const LinkContent = styled.a`
+  color: ${({ theme }) => theme.colors["portfolio-dark"]};
+  :hover {
+    color: ${({ theme }) => theme.colors["portfolio-mid"]};
+  }
+`

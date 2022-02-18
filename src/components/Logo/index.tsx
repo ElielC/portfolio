@@ -24,7 +24,7 @@ const Logo: React.FC<LogoProps> = ({
           colorKey={isInverse ? "portfolio-light" : "portfolio-dark"}
           fontWeight="bold"
         >
-          Portfolio
+          Eliel Silveira
         </Text>
       </a>
     </Link>

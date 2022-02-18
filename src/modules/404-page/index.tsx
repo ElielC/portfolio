@@ -30,10 +30,10 @@ const NotFound: React.FC = () => {
       </AnimationContainer>
       <NotFoundContainer>
         <NotFoundTitle>404</NotFoundTitle>
-        <NotFoundSubtitle>Ops! A página não foi encontrada!</NotFoundSubtitle>
+        <NotFoundSubtitle>Ops! This page was not found!</NotFoundSubtitle>
         <Button buttoncolor="primary" onClick={handleBackButton}>
           <ArrowBack />
-          Voltar à página anterior
+          Back to Previous Page
         </Button>
       </NotFoundContainer>
     </Container>

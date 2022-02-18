@@ -7,8 +7,9 @@ const LandingPage: React.FC = () => {
   return (
     <Layout>
       <MainContainer>
-        <Text>Portfolio</Text>
-        <Text>WebSite in initial development</Text>
+        <Text as="h1" size="title.lg" fontWeight="bold">
+          Not much to see here Yet. Come back later!
+        </Text>
       </MainContainer>
     </Layout>
   )

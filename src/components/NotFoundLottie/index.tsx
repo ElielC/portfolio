@@ -1,13 +1,14 @@
+import dinoNotFound from "public/assets/Dino404.json"
 import Lottie, { Options } from "react-lottie"
 
 import { Container } from "./styles"
 
-// const defaultOptions: Options = {
-//   animationData: notFoundAnimationData,
-//   loop: true,
-//   autoplay: true,
-//   rendererSettings: { preserveAspectRatio: "xMiddYMid slice" }
-// }
+const defaultOptions: Options = {
+  animationData: dinoNotFound,
+  loop: true,
+  autoplay: true,
+  rendererSettings: { preserveAspectRatio: "xMiddYMid slice" }
+}
 
 interface NotFoundLottieProps {
   width?: string | number | undefined
@@ -20,8 +21,7 @@ const NotFoundLottie: React.FC<NotFoundLottieProps> = ({
 }) => {
   return (
     <Container>
-      Teste
-      {/* <Lottie options={defaultOptions} width={width} height={height} /> */}
+      <Lottie options={defaultOptions} width={width} height={height} />
     </Container>
   )
 }

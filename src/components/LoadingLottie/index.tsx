@@ -1,14 +1,13 @@
-import loadingAnimationData from "public/assets/loading.json"
 import Lottie, { Options } from "react-lottie"
 
 import { Container } from "./styles"
 
-const defaultOptions: Options = {
-  animationData: loadingAnimationData,
-  loop: true,
-  autoplay: true,
-  rendererSettings: { preserveAspectRatio: "xMiddYMid slice" }
-}
+// const defaultOptions: Options = {
+//   animationData: loadingAnimationData,
+//   loop: true,
+//   autoplay: true,
+//   rendererSettings: { preserveAspectRatio: "xMiddYMid slice" }
+// }
 
 interface LoadingLottieProps {
   width?: string | number | undefined
@@ -21,7 +20,8 @@ const LoadingLottie: React.FC<LoadingLottieProps> = ({
 }) => {
   return (
     <Container>
-      <Lottie options={defaultOptions} width={width} height={height} />
+      teste
+      {/* <Lottie options={defaultOptions} width={width} height={height} /> */}
     </Container>
   )
 }

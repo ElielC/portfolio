@@ -21,7 +21,7 @@ const AuthLayout: FC = ({ children }) => {
             className="image"
             priority
           />
-          <Logo isInverted />
+          <Logo />
         </ImageContainer>
       )}
     </Container>

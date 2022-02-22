@@ -69,6 +69,10 @@ export default createGlobalStyle`
     }
 
     a {
+      color: ${({ theme }) => theme.colors["portfolio-dark"]};
+      :hover {
+        color: ${({ theme }) => theme.colors["portfolio-mid"]};
+      }
       text-decoration: none;
     }
   }

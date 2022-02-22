@@ -5,7 +5,7 @@ import { Toolbar } from "@material-ui/core"
 import { GitHub, LinkedIn } from "@material-ui/icons"
 
 import Logo from "../Logo"
-import { AppBar, LinkContent, Spacer } from "./styles"
+import { AppBar, Spacer } from "./styles"
 
 const Header: React.FC = () => {
   return (
@@ -14,15 +14,15 @@ const Header: React.FC = () => {
         <Logo />
         <Spacer />
         <Link href="https://github.com/ElielC" passHref>
-          <LinkContent target="_blank">
+          <a target="_blank">
             <GitHub />
-          </LinkContent>
+          </a>
         </Link>
         <SizedBox width="0.5rem" />
         <Link href="https://www.linkedin.com/in/elielcsilveira" passHref>
-          <LinkContent target="_blank">
+          <a target="_blank">
             <LinkedIn />
-          </LinkContent>
+          </a>
         </Link>
       </Toolbar>
     </AppBar>

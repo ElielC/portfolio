@@ -4,7 +4,7 @@ import { Container } from "./styles"
 const LogoContainer: React.FC = () => {
   return (
     <Container>
-      <Logo />
+      <Logo size="title.lg" />
     </Container>
   )
 }

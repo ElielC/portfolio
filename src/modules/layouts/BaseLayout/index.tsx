@@ -1,13 +1,15 @@
-import Header from "@/components/Header"
+import Copyright from "@/components/Copyright"
+import LogoContainer from "@/components/LogoContainer"
 
-import { Container, BodyContainer } from "./styles"
+import { GridContainer } from "./styles"
 
 const BaseLayout: React.FC = ({ children }) => {
   return (
-    <Container>
-      <Header />
-      <BodyContainer> {children} </BodyContainer>
-    </Container>
+    <GridContainer>
+      <LogoContainer />
+      {children}
+      <Copyright />
+    </GridContainer>
   )
 }
 

@@ -1,1 +1,1 @@
-export { default } from "@/modules/404-page"
+export { default } from "@/modules/404"

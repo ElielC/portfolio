@@ -32,7 +32,7 @@ export default createGlobalStyle`
 
   body {
     background-color: ${({ theme }) => theme.colors["grey.800"]};
-    color: ${({ theme }) => theme.colors["grey.100"]};
+    color: ${({ theme }) => theme.colors["white.100"]};
     font-size: 16px;
   }
 
@@ -69,6 +69,10 @@ export default createGlobalStyle`
     }
 
     a {
+      color: ${({ theme }) => theme.colors["portfolio-dark"]};
+      :hover {
+        color: ${({ theme }) => theme.colors["portfolio-mid"]};
+      }
       text-decoration: none;
     }
   }

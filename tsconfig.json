@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -14,11 +18,19 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": ".",
-    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/@types"
+    ],
     "paths": {
-      "@/*": ["./src/*"],
-      "@/tests/*": ["./__tests__/*"]
-    }
+      "@/*": [
+        "./src/*"
+      ],
+      "@/tests/*": [
+        "./__tests__/*"
+      ]
+    },
+    "incremental": true
   },
   "include": [
     "./node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -27,5 +39,8 @@
     "**/*.tsx",
     "jest.config.js"
   ],
-  "exclude": ["node_modules", "__tests__"]
+  "exclude": [
+    "node_modules",
+    "__tests__"
+  ]
 }

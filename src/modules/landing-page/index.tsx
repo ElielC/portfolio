@@ -3,7 +3,7 @@ import Head from "next/head"
 import Text from "@/components/Text"
 import Layout from "@/modules/layouts/LandingPage"
 
-import { MainContainer } from "./styles"
+import { HomeDraw, ImageContainer, MainContainer } from "./styles"
 
 const LandingPage: React.FC = () => {
   return (
@@ -16,6 +16,9 @@ const LandingPage: React.FC = () => {
           Not much to see here Yet. Come back later!
         </Text>
       </MainContainer>
+      <ImageContainer>
+        <HomeDraw src="/assets/landing-page-draw.svg" />
+      </ImageContainer>
     </Layout>
   )
 }
